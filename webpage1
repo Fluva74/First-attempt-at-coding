@@ -1,0 +1,21 @@
+<!DOCUTYPE html>
+<html>
+<style>
+ div {font-size: 40px;}
+
+  #splash {
+  animation-name: vivid;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes vivid {
+  0%{color: blue;
+}
+50%{color: green;
+}
+100%{color: yellow;}
+}
+</style>
+<div id="splash"><b>My first true webpage!</b></div>
+<p>I am overwhelmed, but having so much fun learning.</p>
+</html>
